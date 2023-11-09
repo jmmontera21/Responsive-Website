@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    z-index: 10;
+    background: rgb(0, 128, 0, 0.8);
+}
+
+.marinlogo{
+    width: 7%; 
+    border-radius: 50px; 
+    position: relative;
+}
+
+header .logo{
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: 1000;
+    padding-bottom: 7px;
+}
+
+header .logo:hover{
+    text-shadow: -2px 1px 10px lawngreen;
+}
+
+header .nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+header .nav li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+header .nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .nav li a:hover{
+    color: white;
+    text-decoration: none;
+    text-shadow: -2px 1px 10px lawngreen;
+}
+
+header .search{
+    position: relative;
+    width: 300px;
+    height: 36px;
+}
+
+header .search input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+header .search input::placeholder{
+    color: white;
+}
+
+header .search .fa-search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: white;
+    border-right: 1px solid white;
+    padding-left: 10px;
+}
+
+.screen{
+    background: url(bg12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 160px 100px 100px 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.screen2{
+    background: rgb(0, 128, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 100px 0px 100px;
+}
+
+.screen .content{
+    max-width: 700px;
+}
+
+.screen .content h2{
+    font-size: 3em;
+    color: white;
+    padding-top: 150px;
+}
+
+.screen .content p{
+    font-size: 1em;
+    color: white;
+}
+
+.screen .content a{
+    display: inline-block;
+    background: rgb(0, 128, 0, 0.8);
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.screen .content a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.screen2 .content{
+    max-width: 100%;
+    margin: 10px 0px;
+    text-align: justify;
+    background: white;
+}
+
+.screen2 .content h2{
+    font-size: 2.3em;
+    color: white;
+    background: green;
+    text-align: center;
+}
+
+.screen2 .content2{
+    max-width: 100%;
+    height: 20em; 
+    background: green; 
+    width: 48%;
+}
+
+.screen2 .content2 h2{
+    font-size: 2.3em;
+    color: white;
+    background: green;
+    text-align: center;
+}
+
+.screen2 .content2 p{
+    font-size: 1em;
+    padding: 10px 10px;
+    color: black;
+}
+
+.screen2 .content p{
+    padding: 10px 10px;
+    font-size: 1em;
+    color: black;
+}
+
+.screen2 .content a{
+    display: inline-block;
+    background: rgb(0, 128, 0, 0.8);
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    margin:  0px 0px 10px 20px;
+}
+
+.screen2 .content2 a{
+    display: inline-block; 
+    background: rgb(0, 128, 0, 0.8); 
+    color: white; padding: 8px 20px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    margin: 28.8px 0px;
+    text-align: right;
+}
+
+.screen2 .content a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.screen2 .content2 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.mid{
+    position: relative;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+    left:42.5%;
+}
+
+.mid2{
+    position: relative;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+}
+
+.screen2 .content .mid2{
+    position: relative;
+    max-width:45%;
+    max-height:45%;
+    top:50%;
+}
+
+.footer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(0, 128, 0, 0.6);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.ta{
+    padding: 0px 3px 0px 3px;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 128, 0, 0.3);
+}
+
+.cb{
+    background-color: white;
+    display: flex;
+}
+
+.cl{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.cr{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: rgb(0, 128, 0, 0.8);
+    color: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row .group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: solid rgb(204, 204, 204);
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:black;
+}
+
+button{
+    background:green;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,128,0,0.4);
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+@media (max-width: 1000px)
+{
+    header{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .screen{
+        padding: 150px 20px 50px;
+        flex-direction: column-reverse;
+    }
+    header .marinlogo{
+        max-width: 100%;
+    }
+    .screen .content h2{
+        font-size: 2em;
+    }
+    .screen2{
+        padding: 0px 20px 50px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .screen2 .content h2{
+        font-size: 2em;
+    }
+
+    .screen2 .content2 h2{
+        font-size: 2em;
+    }
+
+    .mid{
+        position: relative;
+        max-width:50%;
+        max-height:50%;
+        top:50%;
+        left:40%;
+    }
+
+    .mid2{
+        position: relative;
+        max-width:100%;
+        top:50%;
+    }
+
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .nav.responsive li a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+@media (max-width: 600px)
+{
+    header .search{
+        width: 100%;
+    }
+    
+    header img{
+        margin: 20px;
+        width: 100%;
+    }
+
+    .mid{
+        position: relative;
+        max-width:100%;
+        max-height:45%;
+        top:50%;
+        left: 20%;
+    }
+
+    .nav a:not(:no-button) {display: none;}
+    .nav a.icon {
+      float: right;
+      display: block;
+    }
+}
+
+
+
+
